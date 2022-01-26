@@ -1,0 +1,30 @@
+/*---Variable---*/
+
+$white-color: #ffff;   
+$light-color:#d5d5d5;
+$blak-color: #000;
+$orang-color: #ff7b24;
+$blu-color: #0081ed;
+$grey-color: #686868;
+$font-16: 16px;
+
+
+$font-family: 'Roboto', sans-serif;
+$width : 100%;
+
+@mixin bg-img-prprty{
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+}
+@mixin heading-prop{
+    font-size: 35px;
+    text-align: center;
+}
+@mixin cont-wid{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+  
+    

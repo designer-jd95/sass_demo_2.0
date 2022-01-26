@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tripper | Edit Profile</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="sass/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="sass/style.css">
+  <link rel="stylesheet" type="text/css" href="sass/custom.css">
+  <link rel="stylesheet" type="text/css" href="sass/font-awesome.css">
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/custom.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="header-inner">
+      <div class="h-logo">
+        <a href="index.html"><img src="images/Tripper-Final-Logo.png"></a>
+      </div>
+      <div class="h-search">
+        <div class="h-search-inner">
+          <input type="text" placeholder="Search" name="">
+          <button class="btn src-submit"><img src="images/search-icon.svg"></button>
+        </div>
+      </div>
+      <div class="header-right">
+          <div class="user-bell">
+            <div class="notification"><a href="#"><img src="images/bell.svg"></a></div>
+            <div class="header-profile">
+              <a href="#"><img src="images/user.svg"></a>
+              <div class="profile-dw">
+                <div class="dw-email"><a href="#">username@gmail.com</a></div>
+                <div class="dw-menu">
+                  <div class="dw-list"><a href="blogger-profile.html">My Profile</a></div>
+                  <div class="dw-list"><a href="edit-profile.html">Account Settings</a></div>
+                  <div class="dw-list"><a href="#">Logout</a></div>
+                </div>
+              </div>
+            </div>         
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="db-content-cover">
+    <div class="edit-profile-sec">
+    <div class="white-block">
+      <div class="container">
+           <div class="row">
+             <div class="col-md-5 d-flex align-items-center justify-content-center border-right">
+                <div class="user">
+                  <div class="user-img">
+                    <input id="photo_camera" type="file" name="photo_camera">
+                    <label><img src="images/user-without-border.svg"></label>
+                   
+                      <div class="cam-icon">
+                        <a href="#"><img src="images/cam-icon.svg"></a>
+                      </div>
+                  </div>
+                <p class="user-txt">Upload Profile</p>
+                </div>
+             </div>
+             <div class="col-md-7">
+               <div class="edit-pro-form">
+                 <h2 class="section-title">Edit Profile</h2>
+                 <form>
+                   <div class="sign-in-form">
+                    <input type="Name" class="form-control" id="Name" placeholder="Profile Name">
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="username@gmail.com">
+                    <input type="Username" class="form-control" id="exampleInputPassword1" placeholder="Username">
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Confirm Password">
+                    <div class="edit-pro-form-btn">
+                      <div class="grey-btn">
+                        <a href="#">Cancle</a>
+                      </div>
+                      <div class="blue-btn">
+                        <a href="#" >Save</a>
+                      </div>
+                    </div>
+                 </div>
+                 </form>
+               </div>
+             </div>
+           </div>
+         </div>
+      </div>
+    </div>
+  </section>
+ 
+</body>
+  </html>
